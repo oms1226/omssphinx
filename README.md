@@ -30,3 +30,14 @@ remote: Total 1616 (delta 0), reused 0 (delta 0), pack-reused 1616
 Receiving objects: 100% (1616/1616), 43.18 MiB | 5.38 MiB/s, done.
 Resolving deltas: 100% (594/594), done.
 ```
+# build
+```
+MS Windows™ (MS Visual Studio 2012 (or newer - we test with VC++ 2012 Express)
+load sphinxbase.sln located in sphinxbase directory
+
+compile all the projects in SphinxBase (from sphinxbase.sln)
+
+load pocketsphinx.sln in pocketsphinx directory
+
+compile all the projects in PocketSphinx
+```

@@ -53,3 +53,16 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+pocketsphinx/\.vs/pocketsphinx/v15/
+
+*.obj
+
+*.tlog
+
+*.idb
+
+*.pdb
+
+*.vcxproj
+
+sphinxbase/\.vs/sphinxbase/v15/
