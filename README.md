@@ -45,3 +45,12 @@ compile all the projects in PocketSphinx
 export POCKETSPHINX_HOME=D:\_workspace\omssphinx\pocketsphinx
 export SPINXBASE_HOME=D:\_workspace\omssphinx\sphinxbase
 
+error 발생하는 상황
+```
+
+Error while executing process C:\Users\oms12\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe with arguments {-HD:\_workspace\omssphinx\pocketsphinx-android -BD:\_workspace\omssphinx\pocketsphinx-android\.externalNativeBuild\cmake\debug\armeabi-v7a -GAndroid Gradle - Ninja -DANDROID_ABI=armeabi-v7a -DANDROID_NDK=C:\Users\oms12\AppData\Local\Android\Sdk\ndk-bundle -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\_workspace\omssphinx\pocketsphinx-android\build\intermediates\cmake\debug\obj\armeabi-v7a -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:\Users\oms12\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe -DCMAKE_TOOLCHAIN_FILE=C:\Users\oms12\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake -DANDROID_PLATFORM=android-14}
+
+
+Could not initialize class com.android.sdklib.repository.AndroidSdkHandler
+```
+android-14를 설치하고 다시 빌드해도 동일하게 위와 같은 에러가 발생하는 상황
