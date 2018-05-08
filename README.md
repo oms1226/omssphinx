@@ -41,3 +41,7 @@ load pocketsphinx.sln in pocketsphinx directory
 
 compile all the projects in PocketSphinx
 ```
+## android studio build(ex. D:\_workspace\omssphinx\pocketsphinx-android)
+export POCKETSPHINX_HOME=D:\_workspace\omssphinx\pocketsphinx
+export SPINXBASE_HOME=D:\_workspace\omssphinx\sphinxbase
+
