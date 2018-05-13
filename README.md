@@ -57,5 +57,6 @@ Could not initialize class com.android.sdklib.repository.AndroidSdkHandler
 ```
 android-14를 설치하고 다시 빌드해도 동일하게 위와 같은 에러가 발생하는 상황
 
-아래 페이지를 보고 빌드가 되지 않는 원인을 체계적으로 파악해 봐야 되는 
+20180513 현재 아래 페이지를 보고 빌드가 되지 않는 원인을 체계적으로 파악해 봐야 되는 상황
+
 https://cmusphinx.github.io/wiki/tutorialandroid/
